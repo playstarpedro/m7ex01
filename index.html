@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Olá! Preencha o formulário:</h1>
+    <div class="container">
+        
+        <form id="formulario">
+            <input type="number" id="num-a" placeholder="Digite o número A">
+            <input type="number" id="num-b" placeholder="Digite o número B">
+            <p class="error-message">
+                O número B precisa ser maior que o número A!
+            </p>
+            <p class="succes-message">
+                Enviado com sucesso!
+            </p>
+            <button type="submit" id="confirmar">Confirmar</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
